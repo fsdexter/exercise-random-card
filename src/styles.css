@@ -1,0 +1,97 @@
+
+body {
+    background: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.card {
+    height: 400px;
+    width: 280px;
+    background: white;
+    border-radius: 25px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 80px;
+    margin: auto;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.heart,
+.heart:before {
+	content: "\2665";
+    color: red;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.heart:after {
+	content: "\2665";
+    color: red;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+.spade,
+.spade:before {
+	content: "\2660";
+    color: black;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.spade:after {
+	content: "\2660";
+    color: black;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+.diamond,
+.diamond:before {
+	content: "\2666";
+    color: red;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.diamond:after {
+	content: "\2666";
+    color: red;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+.club,
+.club:before {
+	content: "\2663";
+    color: black;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+}
+
+.club:after {
+	content: "\2663";
+    color: black;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    transform: rotate(180deg);
+}
+
+
+
